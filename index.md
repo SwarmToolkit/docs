@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "The Swarm Toolkit"
   text: "Some tools made for Neuro-sama live stream."
-  tagline: My great project tagline
+  tagline: "Not affiliate of vedal987."
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Quick start
+      link: /guide/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Watch Neuro-sama stream
+      link: //www.twitch.tv/vedal987
 
 features:
   - title: Feature A

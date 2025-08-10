@@ -7,22 +7,24 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Guide', link: '/guide/index' },
+      { text: 'About', link: '/about/index' },
+      { text: 'Neuro-sama', link: '//www.twitch.tv/vedal987' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'What is Swarm Toolkit?', link: '/guide/index' },
+          { text: 'Quick start', link: '/guide/getting-started' },
+          { text: 'Runtime API Examples', link: '/guide/api-examples' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/SwarmToolkit' }
     ]
   }
 })
