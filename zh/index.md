@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "The Swarm Toolkit"
-  text: "Some tools made for Neuro-sama live stream."
-  tagline: "Not affiliate of vedal987."
+  name: "蜂群工具箱"
+  text: "一些为 Neuro-sama 直播制作的工具。"
+  tagline: "不附属于 vedal987."
   actions:
     - theme: brand
-      text: Quick start
-      link: /guide/start
+      text: 快速开始
+      link: /zh/guide/start
     - theme: alt
-      text: Watch Neuro-sama
+      text: 观看 Neuro-sama
       link: //www.twitch.tv/vedal987
 
 features:

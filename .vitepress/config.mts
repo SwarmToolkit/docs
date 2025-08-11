@@ -7,24 +7,35 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Guide', link: '/guide/index' },
-      { text: 'About', link: '/about/index' },
-      { text: 'Neuro-sama', link: '//www.twitch.tv/vedal987' }
+      { text: "Guide", link: "/guide/index" },
+      { text: "About", link: "/about/index" },
+      { text: "Neuro-sama", link: "//www.twitch.tv/vedal987" },
     ],
 
     sidebar: [
       {
-        text: 'Introduction',
+        text: "Introduction",
         items: [
-          { text: 'What is Swarm Toolkit?', link: '/guide/index' },
-          { text: 'Quick start', link: '/guide/getting-started' },
-          { text: 'Runtime API Examples', link: '/guide/api-examples' }
-        ]
-      }
+          { text: "What is Swarm Toolkit?", link: "/guide/index" },
+          { text: "Quick start", link: "/guide/start" },
+        ],
+      },
+      {
+        text: "Installation",
+        items: [{ text: "NeuroTTS", link: "/guide/neurotts" }],
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/SwarmToolkit' }
-    ]
-  }
-})
+    socialLinks: [{ icon: "github", link: "//github.com/SwarmToolkit" }],
+  },
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+    },
+    zh: {
+      label: "简体中文",
+      lang: "zh",
+    },
+  },
+});
